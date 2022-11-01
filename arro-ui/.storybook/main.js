@@ -1,5 +1,8 @@
 module.exports = {
-  stories: ['../components/**/*.stories.?(ts|tsx|js|jsx)'],
-  addons: ['@storybook/addon-essentials', '@storybook/addon-react-native-web'],
-  framework: '@storybook/react',
+  stories: ["../components/**/*.stories.?(ts|tsx|js|jsx)"],
+  addons: ["@storybook/addon-essentials", "@storybook/addon-react-native-web"],
+  framework: "@storybook/react",
+  core: {
+    builder: "webpack5",
+  },
 };
