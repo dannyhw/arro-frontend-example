@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "arro-ui": "*",
     "expo": "^47.0.0-beta.7",
     "expo-constants": "~14.0.2",
     "expo-linking": "~3.2.3",

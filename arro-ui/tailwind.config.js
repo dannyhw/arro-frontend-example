@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./app/*", "../arro-ui/components/**/*.{js,jsx,ts,tsx}"],
+  content: ["./components/**/*"],
   theme: {
     extend: {},
   },
